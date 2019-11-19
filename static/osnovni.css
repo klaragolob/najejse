@@ -1,0 +1,61 @@
+/* Sticky Footer Classes */
+
+
+body {
+  height: 100%;
+  padding-top: 56px;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+ footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+}
+
+container{
+ margin-block-end: 60px;
+}
+
+.text-center {
+ margin-block-end: 60px;
+}
+
+body::after {
+  content: "";
+  background: url(background_prijava.jpg);
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;   
+}
+
+.btn-primary { 
+background-color: #F0B27A; 
+border-color: #F0B27A;
+}
+
+.btn-primary:hover { 
+  background-color: #E67E22;
+  border-color: #E67E22;
+}
+
+.btn-primary:active { 
+  background-color: #E67E22;
+  border-color: #E67E22;
+}
+
+table {
+    margin-bottom: 60px;
+}

@@ -1,0 +1,28 @@
+    
+%rebase('osnova.html', naslov='Najej.se')
+
+    <!-- Jumbotron Header -->
+    <header class="jumbotron my-4">
+      <h1 class="display-3">Dobrodošli!</h1>
+      <p class="lead">OPIS</p>
+    </header>
+	
+	
+	    <div class="row text-center">
+		%for (id, ime, opis, postopek, datum_objave, ocena, cas, uporabnik) in recept :
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h4 class="card-title">{{ime}}</h4>
+            <p class="card-text">{{opis}}</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Prikaži recept</a>
+          </div>
+        </div>
+      </div>
+	  %end
+
+    </div>
+    <!-- /.row -->
+

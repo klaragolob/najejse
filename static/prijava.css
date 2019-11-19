@@ -1,0 +1,36 @@
+body{  
+
+}
+
+body::after {
+  content: "";
+  background: url(background_prijava.jpg);
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.card{
+	background-color: #F4F6F7;
+	border-radius: 12px;
+}
+
+.btn-primary { 
+background-color: #F0B27A; 
+border-color: #F0B27A;
+}
+
+.btn-primary:hover { 
+  background-color: #E67E22;
+  border-color: #E67E22;
+}
+
+.btn-primary:active { 
+  background-color: #E67E22;
+  border-color: #E67E22;
+}
+
